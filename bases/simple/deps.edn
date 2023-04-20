@@ -1,6 +1,5 @@
 {:paths ["src" "resources"]
  :deps {io.github.ring-clojure/ring
-{:sha
- "1db1b306ce8ec4db2f17a8cb0c9c98fe7f90146f" :deps/manifest :deps}}
+{:sha "1db1b306ce8ec4db2f17a8cb0c9c98fe7f90146f" :deps/manifest :deps}}
  :aliases {:test {:extra-paths ["test"]
                   :extra-deps {}}}}

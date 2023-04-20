@@ -6,6 +6,6 @@
 
             :poly {:main-opts ["-m" "polylith.clj.core.poly-cli.core"]
                    :extra-deps {polyfy/polylith
-                                {:git/url   "https://github.com/polyfy/polylith"
-                                 :sha       "01a0c9d7783ac2ac9abab4d7d3d0fe4e28ffdb4e"
-                                 :deps/root "projects/poly"}}}}}
+                                ;{:local/root "/Users/dean.chapman/dev/experiment/polylith/projects/poly/target/poly.jar"}
+                                {:git/url   "https://github.com/polyfy/polylith" :sha "01a0c9d7783ac2ac9abab4d7d3d0fe4e28ffdb4e" :deps/root "projects/poly"}
+                                }}}}
